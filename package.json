@@ -1,0 +1,21 @@
+{
+  "name": "university-management-system",
+  "version": "1.0.0",
+  "description": "Sistema de gestão universitária",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "wait-for-db": "node scripts/wait-for-db.js",
+    "setup-db": "node scripts/setup-database.js",
+    "seed-db": "node scripts/seed-database.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.6.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
