@@ -3,7 +3,7 @@ const db = require("./database/connection");
 const RoomService = require("./services/RoomService");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Inicializar banco
 async function init() {
